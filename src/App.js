@@ -3,8 +3,8 @@ import React from "react";
 function App() {
   return (
     <div>
-      <h1>My Chrome Extension</h1>
-      <p>This is the popup content built with React!</p>
+      <h1>reCalibrate</h1>
+      <p>This is a popup!</p>
     </div>
   );
 }

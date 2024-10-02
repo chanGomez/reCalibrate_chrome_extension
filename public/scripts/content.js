@@ -6,4 +6,6 @@ const appContainer = document.createElement("div");
 appContainer.id = "react-chrome-extension";
 document.body.appendChild(appContainer);
 
-ReactDOM.render(<App />, document.getElementById("react-chrome-extension"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+root.render(<App />, document.getElementById("react-chrome-extension"));
