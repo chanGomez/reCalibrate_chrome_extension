@@ -1,0 +1,12 @@
+{
+  "name": "reCalibrate",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Frontend Debugger + Component Modifier"
+  }
+}

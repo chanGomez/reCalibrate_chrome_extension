@@ -8,7 +8,7 @@ function addRedBorder(event) {
   if (previousElement) {
     previousElement.style.outline = "";
   }
-  element.style.outline = "2px solid red";
+  element.style.outline = "2px solid greenyellow";
   previousElement = element;
 }
 
