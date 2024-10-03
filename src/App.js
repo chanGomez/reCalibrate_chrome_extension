@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
       <h1>reCalibrate</h1>
-      <p>This is a popup!</p>
+      <button id="debug-button">Start Debugging</button>
     </div>
   );
 }
