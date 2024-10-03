@@ -5,9 +5,6 @@
   "version": "1.0",
   "permissions": ["debugger", "tabs", "activeTab"],
   "host_permissions": ["https://www.google.com/*"],
-  "background": {
-    "service_worker": "service-worker.js"
-  },
   "action": {
     "default_popup": "popup.html"
   }
