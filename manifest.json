@@ -13,6 +13,7 @@
     "128": "assets/rabbit128.png"
   },
   "action": {
-    "default_title": "Frontend Debugger + Component Resizer"
+    "default_title": "Frontend Debugger + Component Resizer",
+    "default_popup": "popup.html"
   }
 }
